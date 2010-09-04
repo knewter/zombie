@@ -6,7 +6,6 @@ require 'rspec/rails'
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
-require File.join(Rails.root.to_s, 'features', 'support', 'blueprints.rb')
 
 RSpec.configure do |config|
   # == Mock Framework
