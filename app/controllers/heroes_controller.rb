@@ -46,7 +46,7 @@ class HeroesController < ApplicationController
       redirect_to '/'
     else
       flash[:error] = "There was a problem retiring the hero."
-      render :action = 'show'
+      render :action => 'show'
     end
   end
 
